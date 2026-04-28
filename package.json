@@ -111,7 +111,7 @@
     "bcrypt": "^6.0.0",
     "class-variance-authority": "^0.7.1",
     "loglayer": "^9.1.0",
-    "next-intl": "^4.9.0",
+    "next-intl": "^4.9.2",
     "pino": "^10.3.1"
   }
 }
