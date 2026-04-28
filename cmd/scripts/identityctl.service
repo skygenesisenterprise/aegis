@@ -1,0 +1,14 @@
+[Unit]
+Description=Aether Identity Console
+Documentation=https://wiki.skygenesisenterprise.com/
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/identityctl
+Restart=on-failure
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
