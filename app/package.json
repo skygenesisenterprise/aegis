@@ -1,7 +1,7 @@
 {
-  "name": "@aether-identity/app",
+  "name": "@aegis/app",
   "version": "1.0.0",
-  "description": "Frontend application for Aether identity",
+  "description": "Frontend application for Aegis Web Console, built with Next.js and React.",
   "private": true,
   "type": "module",
   "scripts": {

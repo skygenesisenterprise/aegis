@@ -1,7 +1,7 @@
 {
-  "name": "aether-identity",
+  "name": "aegis",
   "version": "1.0.0",
-  "description": "An Enterprise OAuth2/OIDC support, multi-factor authentication, and secure account management for applications and services.",
+  "description": "An Enterprise Aegis Web Console for Manage Infrastructure and Ecosystem.",
   "private": true,
   "type": "module",
   "workspaces": [
@@ -69,7 +69,7 @@
   "packageManager": "pnpm@8.15.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/skygenesisenterprise/aether-identity.git"
+    "url": "https://github.com/skygenesisenterprise/aegis.git"
   },
   "keywords": [
     "vault",
@@ -91,9 +91,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/skygenesisenterprise/aether-identity/issues"
+    "url": "https://github.com/skygenesisenterprise/aegis/issues"
   },
-  "homepage": "https://github.com/skygenesisenterprise/aether-identity#readme",
+  "homepage": "https://github.com/skygenesisenterprise/aegis#readme",
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "eslint --fix --quiet",
