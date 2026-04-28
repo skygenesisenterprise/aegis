@@ -16,7 +16,7 @@ importers:
         version: 3.0.2(pino@10.3.1)
       '@prisma/client':
         specifier: ^7.4.0
-        version: 7.6.0(prisma@7.4.1)(typescript@5.9.3)
+        version: 7.6.0(prisma@7.4.1)(typescript@6.0.3)
       '@radix-ui/react-slot':
         specifier: ^1.2.4
         version: 1.2.4(@types/react@19.2.14)(react@19.2.5)
@@ -31,7 +31,7 @@ importers:
         version: 9.1.0
       next-intl:
         specifier: ^4.9.0
-        version: 4.9.0(next@14.2.35)(react@19.2.5)(typescript@5.9.3)
+        version: 4.9.0(next@14.2.35)(react@19.2.5)(typescript@6.0.3)
       pino:
         specifier: ^10.3.1
         version: 10.3.1
@@ -59,10 +59,10 @@ importers:
         version: 3.8.2
       prisma:
         specifier: 7.4.1
-        version: 7.4.1(@types/react@19.2.14)(react-dom@19.2.5)(react@19.2.5)(typescript@5.9.3)
+        version: 7.4.1(@types/react@19.2.14)(react-dom@19.2.5)(react@19.2.5)(typescript@6.0.3)
       typescript:
-        specifier: ^5
-        version: 5.9.3
+        specifier: ^6
+        version: 6.0.3
 
   app:
     dependencies:
@@ -315,8 +315,8 @@ importers:
         specifier: ^18.3.0
         version: 18.3.28
       typescript:
-        specifier: ^5.4.0
-        version: 5.9.3
+        specifier: ^6.0.3
+        version: 6.0.3
 
 packages:
 
@@ -720,8 +720,8 @@ packages:
   /@electric-sql/pglite@0.4.1:
     resolution: {integrity: sha512-mZ9NzzUSYPOCnxHH1oAHPRzoMFJHY472raDKwXl/+6oPbpdJ7g8LsCN4FSaIIfkiCKHhb3iF/Zqo3NYxaIhU7Q==}
 
-  /@emnapi/core@1.9.2:
-    resolution: {integrity: sha512-UC+ZhH3XtczQYfOlu3lNEkdW/p4dsJ1r/bP7H8+rhao3TTTMO1ATq/4DdIi23XuGoFY+Cz0JmCbdVl0hz9jZcA==}
+  /@emnapi/core@1.10.0:
+    resolution: {integrity: sha512-yq6OkJ4p82CAfPl0u9mQebQHKPJkY7WrIuk205cTYnYe+k2Z8YBh11FrbRG/H6ihirqcacOgl2BIO8oyMQLeXw==}
     requiresBuild: true
     dependencies:
       '@emnapi/wasi-threads': 1.2.1
@@ -729,8 +729,8 @@ packages:
     dev: true
     optional: true
 
-  /@emnapi/runtime@1.9.2:
-    resolution: {integrity: sha512-3U4+MIWHImeyu1wnmVygh5WlgfYDtyf0k8AbLhMFxOipihf6nrWC4syIm/SwEeec0mNSafiiNnMJwbza/Is6Lw==}
+  /@emnapi/runtime@1.10.0:
+    resolution: {integrity: sha512-ewvYlk86xUoGI0zQRNq/mC+16R1QeDlKQy21Ki3oSYXNgLb45GV1P6A0M+/s6nyCuNDqe5VpaY84BzXGwVbwFA==}
     requiresBuild: true
     dependencies:
       tslib: 2.8.1
@@ -1164,7 +1164,7 @@ packages:
     cpu: [wasm32]
     requiresBuild: true
     dependencies:
-      '@emnapi/runtime': 1.9.2
+      '@emnapi/runtime': 1.10.0
     dev: false
     optional: true
 
@@ -1501,8 +1501,8 @@ packages:
     resolution: {integrity: sha512-ZVWUcfwY4E/yPitQJl481FjFo3K22D6qF0DuFH6Y/nbnE11GY5uguDxZMGXPQ8WQ0128MXQD7TnfHyK4oWoIJQ==}
     requiresBuild: true
     dependencies:
-      '@emnapi/core': 1.9.2
-      '@emnapi/runtime': 1.9.2
+      '@emnapi/core': 1.10.0
+      '@emnapi/runtime': 1.10.0
       '@tybys/wasm-util': 0.10.1
     dev: true
     optional: true
@@ -1854,7 +1854,7 @@ packages:
     resolution: {integrity: sha512-5NQZztQ0oY/ADFkmd9gPuweH5A1/CCY8YQPorLLO0Mu6a87mY5gsnDkzmFmIHs9NFaLnZojzgddFVN4RpKYrdw==}
     dev: false
 
-  /@prisma/client@7.6.0(prisma@7.4.1)(typescript@5.9.3):
+  /@prisma/client@7.6.0(prisma@7.4.1)(typescript@6.0.3):
     resolution: {integrity: sha512-7Pe/1ayh3GgWPEg4mmT4ax77LJ1wC+XlnIFvQ94bLP2DsUnOpnruQQR3Jw7r+Frthk94QqDNxo3FjSg8h9PXeQ==}
     engines: {node: ^20.19 || ^22.12 || >=24.0}
     peerDependencies:
@@ -1867,8 +1867,8 @@ packages:
         optional: true
     dependencies:
       '@prisma/client-runtime-utils': 7.6.0
-      prisma: 7.4.1(@types/react@19.2.14)(react-dom@19.2.5)(react@19.2.5)(typescript@5.9.3)
-      typescript: 5.9.3
+      prisma: 7.4.1(@types/react@19.2.14)(react-dom@19.2.5)(react@19.2.5)(typescript@6.0.3)
+      typescript: 6.0.3
     dev: false
 
   /@prisma/client@7.8.0(prisma@7.6.0)(typescript@6.0.3):
@@ -1917,7 +1917,7 @@ packages:
   /@prisma/debug@7.6.0:
     resolution: {integrity: sha512-LpHr3qos4lQZ6sxwjStf59YBht7m9/QF7NSQsMH6qGENWZu2w3UkQUGn1h5iRkDjnWRj3VHykOu9qFhps4ADvA==}
 
-  /@prisma/dev@0.20.0(typescript@5.9.3):
+  /@prisma/dev@0.20.0(typescript@6.0.3):
     resolution: {integrity: sha512-ovlBYwWor0OzG+yH4J3Ot+AneD818BttLA+Ii7wjbcLHUrnC4tbUPVGyNd3c/+71KETPKZfjhkTSpdS15dmXNQ==}
     dependencies:
       '@electric-sql/pglite': 0.3.15
@@ -1935,7 +1935,7 @@ packages:
       proper-lockfile: 4.1.2
       remeda: 2.33.4
       std-env: 3.10.0
-      valibot: 1.2.0(typescript@5.9.3)
+      valibot: 1.2.0(typescript@6.0.3)
       zeptomatch: 2.1.0
     transitivePeerDependencies:
       - typescript
@@ -8402,7 +8402,7 @@ packages:
     resolution: {integrity: sha512-CAu6Qy6XiCenKsvzyCPm2cZFkGfcvhJi8N93TCnOowmzD4Br3ked7QdROusRRp4MQ1iG9u+KCLgVcM9CLDUOIQ==}
     dev: false
 
-  /next-intl@4.9.0(next@14.2.35)(react@19.2.5)(typescript@5.9.3):
+  /next-intl@4.9.0(next@14.2.35)(react@19.2.5)(typescript@6.0.3):
     resolution: {integrity: sha512-MMNAjewHUw9Ke93E5/Yzhf8lqesesaXJTPlrK3FwECgn4EXG9m7Tuzy4rnDes0ogjDhQIa/Ksj/qmFnHJAOluw==}
     peerDependencies:
       next: ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
@@ -8421,7 +8421,7 @@ packages:
       next-intl-swc-plugin-extractor: 4.9.0
       po-parser: 2.1.1
       react: 19.2.5
-      typescript: 5.9.3
+      typescript: 6.0.3
       use-intl: 4.9.0(react@19.2.5)
     transitivePeerDependencies:
       - '@swc/helpers'
@@ -9061,7 +9061,7 @@ packages:
     hasBin: true
     dev: true
 
-  /prisma@7.4.1(@types/react@19.2.14)(react-dom@19.2.5)(react@19.2.5)(typescript@5.9.3):
+  /prisma@7.4.1(@types/react@19.2.14)(react-dom@19.2.5)(react@19.2.5)(typescript@6.0.3):
     resolution: {integrity: sha512-gDKOXwnPiMdB+uYMhMeN8jj4K7Cu3Q2wB/wUsITOoOk446HtVb8T9BZxFJ1Zop6alc89k6PMNdR2FZCpbXp/jw==}
     engines: {node: ^20.19 || ^22.12 || >=24.0}
     hasBin: true
@@ -9076,12 +9076,12 @@ packages:
         optional: true
     dependencies:
       '@prisma/config': 7.4.1
-      '@prisma/dev': 0.20.0(typescript@5.9.3)
+      '@prisma/dev': 0.20.0(typescript@6.0.3)
       '@prisma/engines': 7.4.1
       '@prisma/studio-core': 0.13.1(@types/react@19.2.14)(react-dom@19.2.5)(react@19.2.5)
       mysql2: 3.15.3
       postgres: 3.4.7
-      typescript: 5.9.3
+      typescript: 6.0.3
     transitivePeerDependencies:
       - '@types/react'
       - magicast
@@ -10400,11 +10400,6 @@ packages:
       - supports-color
     dev: true
 
-  /typescript@5.9.3:
-    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
-    engines: {node: '>=14.17'}
-    hasBin: true
-
   /typescript@6.0.3:
     resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
     engines: {node: '>=14.17'}
@@ -10679,16 +10674,6 @@ packages:
       kleur: 4.1.5
       sade: 1.8.1
     dev: false
-
-  /valibot@1.2.0(typescript@5.9.3):
-    resolution: {integrity: sha512-mm1rxUsmOxzrwnX5arGS+U4T25RdvpPjPN4yR0u9pUBov9+zGVtO84tif1eY4r6zWxVxu3KzIyknJy3rxfRZZg==}
-    peerDependencies:
-      typescript: '>=5'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-    dependencies:
-      typescript: 5.9.3
 
   /valibot@1.2.0(typescript@6.0.3):
     resolution: {integrity: sha512-mm1rxUsmOxzrwnX5arGS+U4T25RdvpPjPN4yR0u9pUBov9+zGVtO84tif1eY4r6zWxVxu3KzIyknJy3rxfRZZg==}
