@@ -1,10 +1,10 @@
 services:
-  aetheridentity:
+  aegis:
     build:
       context: .
       dockerfile: Dockerfile.cloud
-    image: aetheridentity:latest
-    container_name: aetheridentity
+    image: skygenesisenterprise/aegis:latest
+    container_name: aegis
     restart: unless-stopped
     expose:
       - "3000"
