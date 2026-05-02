@@ -40,7 +40,7 @@ importers:
         specifier: ^2.27.1
         version: 2.30.0(@types/node@25.6.0)
       '@types/node':
-        specifier: ^25.2.3
+        specifier: ^25.6.0
         version: 25.6.0
       concurrently:
         specifier: ^9.2.1
@@ -309,8 +309,8 @@ importers:
         version: 18.3.1(react@18.3.1)
     devDependencies:
       '@types/node':
-        specifier: ^20.0.0
-        version: 20.19.39
+        specifier: ^25.6.0
+        version: 25.6.0
       '@types/react':
         specifier: ^18.3.0
         version: 18.3.28
@@ -3871,12 +3871,6 @@ packages:
 
   /@types/node@12.20.55:
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
-    dev: true
-
-  /@types/node@20.19.39:
-    resolution: {integrity: sha512-orrrD74MBUyK8jOAD/r0+lfa1I2MO6I+vAkmAWzMYbCcgrN4lCrmK52gRFQq/JRxfYPfonkr4b0jcY7Olqdqbw==}
-    dependencies:
-      undici-types: 6.21.0
     dev: true
 
   /@types/node@25.6.0:
@@ -10402,10 +10396,6 @@ packages:
       has-bigints: 1.1.0
       has-symbols: 1.1.0
       which-boxed-primitive: 1.1.1
-    dev: true
-
-  /undici-types@6.21.0:
-    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
     dev: true
 
   /undici-types@7.19.2:
