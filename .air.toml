@@ -1,11 +1,10 @@
-root = "."
-testdir = "."
+root = "/app"
+testdir = "/app"
 
 [build]
   args_bin     = []
   entrypoint   = "/app/tmp/aether-server"
-  cmd          = "cd /app/server && go build -o /app/tmp/aether-server ."
-  dir          = "/app"
+  cmd          = "cd /app && go build -o /app/tmp/aether-server ./server/"
   delay        = 1000
   exclude_dir  = [
     "assets", "tmp", "vendor",

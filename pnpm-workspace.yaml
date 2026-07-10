@@ -1,5 +1,5 @@
 packages:
-  - "app"
+  - "apps"
   - "tools"
   - "tests"
   - "options"
@@ -8,8 +8,7 @@ packages:
   - "package/node"
   - "package/github"
   - "package/vscode"
-  - "package/cli"
-  - "docs"
+
 
 ignoredBuiltDependencies:
   - sharp

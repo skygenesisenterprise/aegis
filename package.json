@@ -1,7 +1,7 @@
 {
   "name": "aegis",
   "version": "1.0.0",
-  "description": "An Enterprise Aegis Web Console for Manage Infrastructure and Ecosystem.",
+  "description": "Aether Account is a lightweight, open-source account management client built for privacy, speed, and seamless integration within the Aether Office ecosystem",
   "private": true,
   "type": "module",
   "workspaces": [
@@ -13,7 +13,8 @@
     "package/extension",
     "package/snap",
     "tests",
-    "messages"
+    "messages",
+    "server/prisma"
   ],
   "scripts": {
     "dev": "concurrently \"pnpm --filter app dev\" \"pnpm --filter server dev\"",
@@ -51,15 +52,15 @@
     "clean:deps": "pnpm -r exec rm -rf node_modules && rm -rf node_modules pnpm-lock.yaml"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.27.1",
-    "@prisma/client": "7.4.0",
-    "@types/node": "^25.6.0",
+    "@changesets/cli": "^2.30.0",
+    "@prisma/client": "7.4.2",
+    "@types/node": "^25.5.0",
     "concurrently": "^9.2.1",
     "eslint": "^10",
     "husky": "^9.0.11",
-    "lint-staged": "^16.2.7",
+    "lint-staged": "^16.4.0",
     "prettier": "^3.8.1",
-    "prisma": "7.4.1",
+    "prisma": "7.5.0",
     "typescript": "^5"
   },
   "engines": {
@@ -69,7 +70,7 @@
   "packageManager": "pnpm@8.15.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/skygenesisenterprise/aegis.git"
+    "url": "https://github.com/skygenesisenterprise/giteria.git"
   },
   "keywords": [
     "vault",
@@ -91,9 +92,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/skygenesisenterprise/aegis/issues"
+    "url": "https://github.com/skygenesisenterprise/giteria/issues"
   },
-  "homepage": "https://github.com/skygenesisenterprise/aegis#readme",
+  "homepage": "https://github.com/skygenesisenterprise/giteria#readme",
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "eslint --fix --quiet",
@@ -104,14 +105,14 @@
     ]
   },
   "dependencies": {
-    "@capacitor/core": "^8.1.0",
+    "@capacitor/core": "^8.2.0",
+    "@fontsource-variable/mona-sans": "^5.2.8",
     "@loglayer/transport-pino": "^3.0.2",
-    "@prisma/client": "^7.4.0",
+    "@prisma/client": "^7.4.2",
     "@radix-ui/react-slot": "^1.2.4",
-    "bcrypt": "^6.0.0",
     "class-variance-authority": "^0.7.1",
+    "framer-motion": "^12.38.0",
     "loglayer": "^9.1.0",
-    "next-intl": "^4.11.0",
     "pino": "^10.3.1"
   }
 }
